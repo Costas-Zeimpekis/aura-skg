@@ -1,0 +1,659 @@
+{
+  "categories": [
+    {
+      "id": "cocktails",
+      "name": {
+        "el": "COCKTAILS",
+        "en": "COCKTAILS"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Mojito",
+            "en": "Mojito"
+          },
+          "price": 7.0
+        },
+        {
+          "name": {
+            "el": "Aperol Spritz",
+            "en": "Aperol Spritz"
+          },
+          "price": 7.0
+        },
+        {
+          "name": {
+            "el": "Gin Tonic",
+            "en": "Gin Tonic"
+          },
+          "price": 7.0
+        },
+        {
+          "name": {
+            "el": "Pina Colada",
+            "en": "Pina Colada"
+          },
+          "price": 7.0
+        },
+        {
+          "name": {
+            "el": "Margharita",
+            "en": "Margharita"
+          },
+          "price": 7.0
+        },
+        {
+          "name": {
+            "el": "Long Island",
+            "en": "Long Island"
+          },
+          "price": 8.0
+        },
+        {
+          "name": {
+            "el": "Mai Tai",
+            "en": "Mai Tai"
+          },
+          "price": 7.0
+        },
+        {
+          "name": {
+            "el": "Cuba Libre",
+            "en": "Cuba Libre"
+          },
+          "price": 7.0
+        },
+        {
+          "name": {
+            "el": "Tequila Sunrise",
+            "en": "Tequila Sunrise"
+          },
+          "price": 7.0
+        },
+        {
+          "name": {
+            "el": "Sex On The Beach",
+            "en": "Sex On The Beach"
+          },
+          "price": 7.0
+        },
+        {
+          "name": {
+            "el": "Blue Lagoon",
+            "en": "Blue Lagoon"
+          },
+          "price": 7.0
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "name": {
+        "el": "COFFEE",
+        "en": "COFFEE"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Espresso",
+            "en": "Espresso"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "Μονός",
+                "en": "Single"
+              },
+              "price": 1.8
+            },
+            {
+              "name": {
+                "el": "Διπλός",
+                "en": "Double"
+              },
+              "price": 2.0
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Cappuccino",
+            "en": "Cappuccino"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "Μονός",
+                "en": "Single"
+              },
+              "price": 2.5
+            },
+            {
+              "name": {
+                "el": "Διπλός",
+                "en": "Double"
+              },
+              "price": 3.0
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Freddo Espresso",
+            "en": "Freddo Espresso"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "Μονός",
+                "en": "Single"
+              },
+              "price": 2.5
+            },
+            {
+              "name": {
+                "el": "Διπλός",
+                "en": "Double"
+              },
+              "price": 3.0
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Freddo Cappuccino",
+            "en": "Freddo Cappuccino"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "Μονός",
+                "en": "Single"
+              },
+              "price": 3.0
+            },
+            {
+              "name": {
+                "el": "Διπλός",
+                "en": "Double"
+              },
+              "price": 3.5
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Ελληνικός",
+            "en": "Greek Coffee"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "Μονός",
+                "en": "Single"
+              },
+              "price": 1.8
+            },
+            {
+              "name": {
+                "el": "Διπλός",
+                "en": "Double"
+              },
+              "price": 2.0
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Φίλτρου",
+            "en": "Filter Coffee"
+          },
+          "price": 2.5
+        },
+        {
+          "name": {
+            "el": "Frappe",
+            "en": "Frappe"
+          },
+          "price": 3.0
+        }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name": {
+        "el": "ΡΟΦΗΜΑΤΑ",
+        "en": "BEVERAGES"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Milkshake",
+            "en": "Milkshake"
+          },
+          "price": 4.5
+        },
+        {
+          "name": {
+            "el": "Smoothies",
+            "en": "Smoothies"
+          },
+          "price": 4.5
+        },
+        {
+          "name": {
+            "el": "Ζεστή Σοκολάτα",
+            "en": "Hot Chocolate"
+          },
+          "price": 3.0
+        }
+      ]
+    },
+    {
+      "id": "soft-drinks",
+      "name": {
+        "el": "ΑΝΑΨΥΚΤΙΚΑ",
+        "en": "SOFT DRINKS"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Coca Cola",
+            "en": "Coca Cola"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "330ml",
+                "en": "330ml"
+              },
+              "price": 2.5
+            },
+            {
+              "name": {
+                "el": "500ml",
+                "en": "500ml"
+              },
+              "price": 3.0
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Coca Cola Zero",
+            "en": "Coca Cola Zero"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "330ml",
+                "en": "330ml"
+              },
+              "price": 2.5
+            },
+            {
+              "name": {
+                "el": "500ml",
+                "en": "500ml"
+              },
+              "price": 3.0
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Sprite",
+            "en": "Sprite"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "330ml",
+                "en": "330ml"
+              },
+              "price": 2.5
+            },
+            {
+              "name": {
+                "el": "500ml",
+                "en": "500ml"
+              },
+              "price": 3.0
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Fanta",
+            "en": "Fanta"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "330ml",
+                "en": "330ml"
+              },
+              "price": 2.5
+            },
+            {
+              "name": {
+                "el": "500ml",
+                "en": "500ml"
+              },
+              "price": 3.0
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Soda Water",
+            "en": "Soda Water"
+          },
+          "price": 2.0
+        },
+        {
+          "name": {
+            "el": "Tonic Water",
+            "en": "Tonic Water"
+          },
+          "price": 2.0
+        },
+        {
+          "name": {
+            "el": "Amita",
+            "en": "Amita"
+          },
+          "price": 3.0
+        },
+        {
+          "name": {
+            "el": "Red Bull",
+            "en": "Red Bull"
+          },
+          "price": 4.0
+        }
+      ]
+    },
+    {
+      "id": "wines",
+      "name": {
+        "el": "ΚΡΑΣΙΑ",
+        "en": "WINES"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Λευκό",
+            "en": "White Wine"
+          },
+          "price": 4.0
+        },
+        {
+          "name": {
+            "el": "Ροζέ",
+            "en": "Rose Wine"
+          },
+          "price": 4.0
+        },
+        {
+          "name": {
+            "el": "Κόκκινο",
+            "en": "Red Wine"
+          },
+          "price": 4.0
+        }
+      ]
+    },
+    {
+      "id": "beers",
+      "name": {
+        "el": "ΜΠΥΡΕΣ",
+        "en": "BEERS"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Amstel",
+            "en": "Amstel"
+          },
+          "price": 3.0
+        },
+        {
+          "name": {
+            "el": "Heineken",
+            "en": "Heineken"
+          },
+          "price": 3.0
+        },
+        {
+          "name": {
+            "el": "Mythos",
+            "en": "Mythos"
+          },
+          "price": 3.0
+        },
+        {
+          "name": {
+            "el": "Fix",
+            "en": "Fix"
+          },
+          "price": 3.5
+        },
+        {
+          "name": {
+            "el": "Alfa",
+            "en": "Alfa"
+          },
+          "price": 3.0
+        },
+        {
+          "name": {
+            "el": "Corona",
+            "en": "Corona"
+          },
+          "price": 4.0
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "el": "DESSERTS",
+        "en": "DESSERTS"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Cheesecake",
+            "en": "Cheesecake"
+          },
+          "price": 4.5
+        },
+        {
+          "name": {
+            "el": "Brownies",
+            "en": "Brownies"
+          },
+          "price": 3.5
+        },
+        {
+          "name": {
+            "el": "Cookies",
+            "en": "Cookies"
+          },
+          "price": 2.5
+        },
+        {
+          "name": {
+            "el": "Pancakes",
+            "en": "Pancakes"
+          },
+          "price": 5.0
+        },
+        {
+          "name": {
+            "el": "Waffles",
+            "en": "Waffles"
+          },
+          "price": 5.0
+        }
+      ]
+    },
+    {
+      "id": "juices-tea",
+      "name": {
+        "el": "ΧΥΜΟΙ-ΤΣΑΙ",
+        "en": "JUICES-TEA"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Φυσικός Χυμός Πορτοκάλι",
+            "en": "Fresh Orange Juice"
+          },
+          "price": 4.0
+        },
+        {
+          "name": {
+            "el": "Ice Tea",
+            "en": "Ice Tea"
+          },
+          "variants": [
+            {
+              "name": {
+                "el": "Ροδάκινο",
+                "en": "Peach"
+              },
+              "price": 3.0
+            },
+            {
+              "name": {
+                "el": "Λεμόνι",
+                "en": "Lemon"
+              },
+              "price": 3.0
+            }
+          ]
+        },
+        {
+          "name": {
+            "el": "Χυμοί Φρούτων",
+            "en": "Fruit Juices"
+          },
+          "price": 3.0
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": {
+        "el": "SNACKS",
+        "en": "SNACKS"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Club Sandwich",
+            "en": "Club Sandwich"
+          },
+          "price": 5.5
+        },
+        {
+          "name": {
+            "el": "Τοστ",
+            "en": "Toast"
+          },
+          "price": 3.0
+        },
+        {
+          "name": {
+            "el": "Πατάτες Τηγανητές",
+            "en": "French Fries"
+          },
+          "price": 3.5
+        },
+        {
+          "name": {
+            "el": "Nachos",
+            "en": "Nachos"
+          },
+          "price": 4.5
+        }
+      ]
+    },
+    {
+      "id": "ice-cream",
+      "name": {
+        "el": "ΠΑΓΩΤΑ ΕΒΓΑ",
+        "en": "EVGA ICE CREAM"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "1 Μπάλα",
+            "en": "1 Scoop"
+          },
+          "price": 2.0
+        },
+        {
+          "name": {
+            "el": "2 Μπάλες",
+            "en": "2 Scoops"
+          },
+          "price": 3.5
+        },
+        {
+          "name": {
+            "el": "3 Μπάλες",
+            "en": "3 Scoops"
+          },
+          "price": 5.0
+        }
+      ]
+    },
+    {
+      "id": "spirits",
+      "name": {
+        "el": "ΠΟΤΑ",
+        "en": "SPIRITS"
+      },
+      "items": [
+        {
+          "name": {
+            "el": "Βότκα",
+            "en": "Vodka"
+          },
+          "price": 6.0
+        },
+        {
+          "name": {
+            "el": "Τζιν",
+            "en": "Gin"
+          },
+          "price": 6.0
+        },
+        {
+          "name": {
+            "el": "Ρούμι",
+            "en": "Rum"
+          },
+          "price": 6.0
+        },
+        {
+          "name": {
+            "el": "Τεκίλα",
+            "en": "Tequila"
+          },
+          "price": 6.0
+        },
+        {
+          "name": {
+            "el": "Ουίσκι",
+            "en": "Whiskey"
+          },
+          "price": 7.0
+        }
+      ]
+    }
+  ]
+}

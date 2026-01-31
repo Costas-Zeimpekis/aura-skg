@@ -87,7 +87,7 @@
 								"el": "Cappuccino τετραπλό",
 								"en": "Cappuccino quadruple"
 							},
-							"price": 3.5
+							"price": 3.8
 						},
 						{
 							"name": { "el": "Flat White", "en": "Flat White" },
@@ -622,12 +622,17 @@
 						},
 						{
 							"name": { "el": "Επιλογή λουκάνικου", "en": "Sausage Choice" },
-							"note": {
-								"el": "βραστό ή Βαυαρίας ή πεπερόνι ή πικάντικο",
-								"en": "boiled, Bavarian, pepperoni or spicy"
-							},
 							"items": [
-								{ "name": { "el": "Λουκάνικο", "en": "Sausage" }, "price": 1.8 }
+								{ "name": { "el": "Βραστό", "en": "Boiled" }, "price": 1.8 },
+								{
+									"name": { "el": "Βαυαρίας", "en": "Bavarian" },
+									"price": 1.8
+								},
+								{
+									"name": { "el": "Πεπερόνι", "en": "Pepperoni" },
+									"price": 1.8
+								},
+								{ "name": { "el": "Πικάντικο", "en": "Spicy" }, "price": 1.8 }
 							]
 						},
 						{

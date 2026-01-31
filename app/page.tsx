@@ -7,7 +7,7 @@ import ProductCard from "@/components/ProductCard";
 import productsData from "@/data/products.json";
 
 type LocalizedString = { el: string; en: string };
-type Item = { name: LocalizedString; price: number };
+type Item = { name: LocalizedString; price: number; description?: string };
 type AddOnCategory = {
 	name: LocalizedString;
 	items: Item[];
@@ -67,7 +67,7 @@ export default function Home() {
 						{/* Sections and Products */}
 						{category.sections?.map((section) => (
 							<div key={section.name.en} className="mb-8">
-								<h3 className="text-xl font-semibold text-secondary mb-4">
+								<h3 className="font-semibold text-secondary mb-4">
 									{section.name[locale]}
 								</h3>
 								{section.description && (
@@ -90,6 +90,7 @@ export default function Home() {
 												key={item.name.en}
 												name={item.name}
 												price={item.price}
+												description={item.description}
 												locale={locale}
 											/>
 										))}
@@ -143,6 +144,7 @@ export default function Home() {
 										key={item.name.en}
 										name={item.name}
 										price={item.price}
+										description={item.description}
 										locale={locale}
 									/>
 								))}
